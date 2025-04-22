@@ -4,7 +4,7 @@ import EmailCTA from "./email-cta";
 export default function ContactSection() {
   return (
     <div
-      className="relative flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-32 p-8 md:p-20 bg-cover bg-[url(/contact-background.png)] text-neutral-light after:content-[''] after:absolute after:inset-0 after:bg-black after:opacity-70 after:z-0"
+      className="relative flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-32 p-8 md:p-20 bg-cover bg-[url(/contact-background.png)] bg-center text-neutral-light after:content-[''] after:absolute after:inset-0 after:bg-black after:opacity-75 after:z-0"
       id="contact"
     >
       <div className="shrink-0 md:w-1/3 relative z-10 flex flex-col space-y-8">
@@ -17,7 +17,7 @@ export default function ContactSection() {
         </h2>
         <div>
           <h3 className="text-lg font-semibold">Kontak</h3>
-          <div className="flex flex-col space-y-3 mt-4">
+          <div className="flex flex-col space-y-4 mt-4">
             <div className="flex items-start space-x-4">
               <CustomImage
                 src="/icons/icon-map.svg"
