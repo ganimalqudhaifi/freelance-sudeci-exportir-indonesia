@@ -1,3 +1,5 @@
+import BannerSection from "./banner-section";
+
 export default function Page() {
-  return <div>Product Page</div>;
+  return <BannerSection />;
 }
