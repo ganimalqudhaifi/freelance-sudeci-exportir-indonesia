@@ -1,11 +1,14 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import CustomImage from "./custom-image";
 
 const navigationLinks = [
-  { name: "Home", href: "/#home" },
-  { name: "About", href: "/#about" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
   { name: "Product", href: "/product" },
+  { name: "FAQ", href: "/faq" },
+  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -13,9 +16,15 @@ export default function NavigationHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative border-b border-neutral-400 md:border-0">
-      <div className="flex items-center justify-between mx-auto p-4 md:p-8 lg:px-16">
-        <div className="text-4xl font-bold">Logo</div>
+    <nav className="relative border-b border-neutral-400 md:border-0 z-50">
+      <div className="flex items-center justify-between mx-auto p-4 md:px-8 lg:px-16 lg:py-6">
+        <CustomImage
+          src="/logo.png"
+          alt="logo"
+          width={640}
+          height={229}
+          className="w-24 md:w-[180px] shrink-0"
+        />
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
