@@ -1,7 +1,7 @@
 export default function BannerSection() {
   return (
     <section className="bg-center bg-no-repeat bg-[url('/banner-product.png')] bg-cover bg-gray-700 bg-blend-multiply">
-      <div className="px-4 mx-auto max-w-screen-xl text-center py-20 lg:py-36">
+      <div className="px-8 mx-auto max-w-screen-xl text-center py-20 lg:py-36">
         <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
           Our Products
         </h1>
