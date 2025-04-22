@@ -1,0 +1,81 @@
+[
+  {
+    "id": "candlenut",
+    "name": {
+      "en": "Candlenut",
+      "id": "Kemiri"
+    },
+    "description": {
+      "en": "A vital spice in Southeast Asian cuisine, our candlenuts are sourced from local farmers and processed with strict quality control for culinary and industrial uses.",
+      "id": "Rempah penting dalam masakan Asia Tenggara. Kemiri kami dikeringkan dan diproses dengan kontrol mutu yang ketat."
+    },
+    "details": {
+      "form": "Whole, dried",
+      "origin": "Indonesia",
+      "packaging": "Customized per buyer request",
+      "moq": "Negotiable",
+      "use": "Cooking, oil extraction"
+    },
+    "icon": "🌰",
+    "imagePath": "/products/candlenut.png"
+  },
+  {
+    "id": "charcoal-briquettes",
+    "name": {
+      "en": "Charcoal Briquettes",
+      "id": "Briket Arang"
+    },
+    "description": {
+      "en": "Eco-friendly and efficient, our coconut-shell charcoal briquettes are ideal for BBQ and industrial applications.",
+      "id": "Briket arang dari tempurung kelapa ini ramah lingkungan dan ideal untuk keperluan BBQ atau industri."
+    },
+    "details": {
+      "form": "Pillow / Hexagonal",
+      "ash_content": "< 5%",
+      "moisture": "< 8%",
+      "burning_time": "2-3 hours",
+      "use": "BBQ, hookah, heating"
+    },
+    "icon": "🔥",
+    "imagePath": "/products/charcoal.png"
+  },
+  {
+    "id": "lobster-seed",
+    "name": {
+      "en": "Lobster Seedlings",
+      "id": "Benur Lobster"
+    },
+    "description": {
+      "en": "We provide healthy, high-quality lobster seeds sourced from certified aquaculture partners for sustainable marine farming.",
+      "id": "Benur lobster berkualitas tinggi untuk budidaya laut yang berkelanjutan, dikirim hidup dan bersertifikasi."
+    },
+    "details": {
+      "species": "Panulirus ornatus / other available species",
+      "size": "As requested",
+      "certificate": "Available on request",
+      "transport": "Live shipment",
+      "market": "Hatcheries, exporters"
+    },
+    "icon": "🦞",
+    "imagePath": "/products/lobster.png"
+  },
+  {
+    "id": "banana-leaf",
+    "name": {
+      "en": "Banana Leaves",
+      "id": "Daun Pisang"
+    },
+    "description": {
+      "en": "Fresh banana leaves are ideal for food packaging and cultural purposes. We deliver them in clean, layered condition for various international uses.",
+      "id": "Daun pisang segar, bersih, cocok untuk pengemasan makanan dan acara budaya."
+    },
+    "details": {
+      "form": "Fresh, folded",
+      "length": "50–100 cm",
+      "packaging": "Bundled, vacuum-sealed optional",
+      "use": "Food wrapping, decor, catering"
+    },
+    "icon": "🍃",
+    "imagePath": "/products/banana-leaf.png"
+  }
+]
