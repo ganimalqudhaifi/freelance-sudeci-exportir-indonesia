@@ -24,20 +24,22 @@ type Props = {
 
 const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
   return (
-    <div className="p-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center ">
       {products.map((product) => (
         <div
-          className="max-w-sm flex flex-col bg-white border border-gray-200 rounded-lg shadow-sm"
+          className="max-w-sm flex flex-col bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-2xl transition-shadow duration-300 ease-in-out group"
           key={product.id}
         >
           <a href="#">
-            <CustomImage
-              className="rounded-t-lg"
-              src={product.imagePath}
-              alt=""
-              width={640}
-              height={640}
-            />
+            <div className="rounded-t-lg overflow-hidden">
+              <CustomImage
+                className="group-hover:scale-120 transition-transform duration-300 ease-in-out"
+                src={product.imagePath}
+                alt=""
+                width={640}
+                height={640}
+              />
+            </div>
           </a>
           <div className="p-5 flex flex-col flex-1">
             <a href="#">
