@@ -6,7 +6,7 @@ import CustomImage from "./custom-image";
 const navigationLinks = [
   { name: "Home", href: "#" },
   { name: "About", href: "#about" },
-  { name: "Product", href: "#product" },
+  { name: "Products", href: "#products" },
   { name: "FAQ", href: "#faq" },
   // { name: "Blog", href: "/blog" },
   { name: "Contact", href: "#contact" },
