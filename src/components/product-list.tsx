@@ -24,10 +24,10 @@ type Props = {
 
 const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center">
       {products.map((product) => (
         <div
-          className="max-w-sm flex flex-col bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-2xl transition-shadow duration-300 ease-in-out group"
+          className="max-w-sm flex flex-col border rounded-lg shadow-sm hover:shadow-xl transition-shadow duration-300 ease-in-out group bg-gray-800 border-gray-700"
           key={product.id}
         >
           <a href="#">
@@ -43,16 +43,16 @@ const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
           </a>
           <div className="p-5 flex flex-col flex-1">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
                 {product.name[lang]}
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700 ">
+            <p className="mb-3 font-normal text-gray-400">
               {product.description[lang]}
             </p>
             <a
               href="#"
-              className="mt-auto w-fit inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+              className="mt-auto w-fit inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
             >
               Read more
               <svg
