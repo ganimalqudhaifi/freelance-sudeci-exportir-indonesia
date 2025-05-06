@@ -4,6 +4,7 @@ import "./globals.css";
 import NavigationHeader from "@/components/navigation-header";
 import ContactSection from "@/components/contact-section";
 import Copyright from "@/components/copyright";
+import WhatsappCTA from "@/components/whatsapp-cta";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -87,6 +88,7 @@ export default function RootLayout({
         {children}
         <ContactSection />
         <Copyright />
+        <WhatsappCTA />
       </body>
     </html>
   );

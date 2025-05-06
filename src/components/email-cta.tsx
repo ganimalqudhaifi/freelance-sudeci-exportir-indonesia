@@ -1,4 +1,5 @@
 import Link from "next/link";
+import contact from "@/data/contact.json";
 
 interface EmailCTAButtonProps {
   email: string;
@@ -9,8 +10,8 @@ interface EmailCTAButtonProps {
 
 export default function EmailCTA({
   email,
-  subject = "Pemesanan Layanan Rains Karya Multindo",
-  body = "Halo Rains Karya Multindo, saya tertarik dengan layanan Anda. Berikut detail saya:\n\nNama: \nProduk: \nEmail: ",
+  subject = contact.predefinedMessages.email.subject,
+  body = contact.predefinedMessages.email.body,
   label,
 }: EmailCTAButtonProps) {
   const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
