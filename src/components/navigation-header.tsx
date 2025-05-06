@@ -17,13 +17,13 @@ export default function NavigationHeader() {
 
   return (
     <nav className="relative border-b border-neutral-400 md:border-0 z-50">
-      <div className="flex items-center justify-between mx-auto p-4 md:px-8 lg:px-16 lg:py-6">
+      <div className="flex items-center justify-between mx-auto px-4 py-3 md:px-8 md:py-4 lg:px-16 lg:py-5">
         <CustomImage
           src="/logo.png"
           alt="logo"
           width={640}
           height={229}
-          className="w-24 md:w-[180px] shrink-0"
+          className="w-32 md:w-[180px] shrink-0"
         />
         <button
           onClick={() => setIsOpen(!isOpen)}
