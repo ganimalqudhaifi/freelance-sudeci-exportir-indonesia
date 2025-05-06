@@ -9,14 +9,14 @@ export default function ContactSection() {
     >
       <div className="shrink-0 md:w-1/3 relative z-10 flex flex-col space-y-8">
         <h2 className="text-4xl font-bold">
-          Butuh Konsultasi..?
+          Need Consultation?
           <br />
-          Silahkan kontak kami
+          Feel free to contact us
           <br />
-          Kami siap membantu
+          We&apos;re here to help
         </h2>
         <div>
-          <h3 className="text-lg font-semibold">Kontak</h3>
+          <h3 className="text-lg font-semibold">Contact</h3>
           <div className="flex flex-col space-y-4 mt-4">
             <div className="flex items-start space-x-4">
               <CustomImage
@@ -27,8 +27,8 @@ export default function ContactSection() {
                 className="size-8"
               />
               <p>
-                Jl. H.Inen No.31, RW.9, Lubang Buaya, Kec. Cipayung, Kota
-                Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810
+                H. Inen Street No. 31, RW. 9, Lubang Buaya, Cipayung, East
+                Jakarta 13810, Indonesia
               </p>
             </div>
             <div className="flex items-start space-x-4">
@@ -39,7 +39,7 @@ export default function ContactSection() {
                 alt="phone icon"
                 className="size-6"
               />
-              <p>08XX-XXXX-XXXX</p>
+              <p>+62 8XX-XXXX-XXXX</p>
             </div>
             <div className="flex items-start space-x-4">
               <CustomImage
