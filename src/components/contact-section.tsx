@@ -1,5 +1,6 @@
 import CustomImage from "./custom-image";
 import EmailCTA from "./email-cta";
+import contact from "@/data/contact.json";
 
 export default function ContactSection() {
   return (
@@ -26,10 +27,7 @@ export default function ContactSection() {
                 alt="map icon"
                 className="size-8"
               />
-              <p>
-                H. Inen Street No. 31, RW. 9, Lubang Buaya, Cipayung, East
-                Jakarta 13810, Indonesia
-              </p>
+              <p>{contact.address}</p>
             </div>
             <div className="flex items-start space-x-4">
               <CustomImage
@@ -39,7 +37,7 @@ export default function ContactSection() {
                 alt="phone icon"
                 className="size-6"
               />
-              <p>+62 8XX-XXXX-XXXX</p>
+              <p>{contact.phone}</p>
             </div>
             <div className="flex items-start space-x-4">
               <CustomImage
@@ -50,10 +48,7 @@ export default function ContactSection() {
                 className="size-6 mt-1"
               />
               <div className="flex flex-col">
-                <EmailCTA
-                  email="sudeciexportirindonesia@gmail.com"
-                  label="sudeciexportirindonesia@gmail.com"
-                />
+                <EmailCTA email={contact.email} label={contact.email} />
               </div>
             </div>
           </div>
