@@ -27,7 +27,7 @@ const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center">
       {products.map((product) => (
         <div
-          className="max-w-sm flex flex-col border rounded-lg shadow-sm hover:shadow-xl transition-shadow duration-300 ease-in-out group bg-gray-800 border-gray-700"
+          className="max-w-sm flex flex-col border rounded-lg shadow-sm hover:shadow-xl transition-shadow duration-300 ease-in-out group bg-neutral-800 border-neutral-700"
           key={product.id}
         >
           <a href="#">
@@ -43,16 +43,16 @@ const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
           </a>
           <div className="p-5 flex flex-col flex-1">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-neutral-200">
                 {product.name[lang]}
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-400">
+            <p className="mb-3 font-normal text-neutral-500">
               {product.description[lang]}
             </p>
             <a
               href="#"
-              className="mt-auto w-fit inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
+              className="mt-auto w-fit inline-flex items-center px-3 py-2 text-sm font-medium text-center text-neutral-400 rounded-lg focus:ring-4 focus:outline-none  bg-neutral-700 border border-neutral-600 hover:bg-neutral-600 hover:text-white focus:ring-neutral-800"
             >
               Read more
               <svg
