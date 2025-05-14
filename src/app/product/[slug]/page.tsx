@@ -4,11 +4,16 @@ import CustomImage from "@/components/custom-image";
 import { formatLabel } from "@/lib/utils";
 
 interface ProductPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export default function ProductPage({ params }: ProductPageProps) {
-  const product = productData.find((item) => item.slug === params.slug);
+export async function generateStaticParams() {
+  return productData.map((product) => ({ slug: product.slug }));
+}
+
+export default async function ProductPage({ params }: ProductPageProps) {
+  const { slug } = await params;
+  const product = productData.find((item) => item.slug === slug);
 
   if (!product) return notFound();
 
