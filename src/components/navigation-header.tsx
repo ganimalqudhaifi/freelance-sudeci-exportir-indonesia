@@ -4,12 +4,12 @@ import { useState } from "react";
 import CustomImage from "./custom-image";
 
 const navigationLinks = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#about" },
-  { name: "Products", href: "#products" },
-  { name: "FAQ", href: "#faq" },
+  { name: "Home", href: "/#" },
+  { name: "About", href: "/#about" },
+  { name: "Products", href: "/#products" },
+  { name: "FAQ", href: "/#faq" },
   // { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export default function NavigationHeader() {
