@@ -3,12 +3,10 @@ import { useState } from 'react';
 import {Typewriter} from 'react-simple-typewriter' 
 
 interface HeroHeaderProps {
-  title?: string;
   description?: string;
 }
 
 export default function HeroHeader({
-  title = "Empowering Trade, Elevating Quality",
   description = "Connecting local producers with global buyers through trusted export solutions.",
 }: HeroHeaderProps) {
   const [doneTyping, setDoneTyping] = useState(false);
