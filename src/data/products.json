@@ -39,7 +39,7 @@
       "use": "BBQ, hookah, heating"
     },
     "icon": "🔥",
-    "imagePath": "/products/charcoal.png"
+    "imagePath": "/products/charcoal-briquettes.png"
   },
   {
     "id": "lobster-seed",
@@ -60,7 +60,7 @@
       "market": "Hatcheries, exporters"
     },
     "icon": "🦞",
-    "imagePath": "/products/lobster.png"
+    "imagePath": "/products/lobster-seed.png"
   },
   {
     "id": "banana-leaf",
@@ -81,5 +81,68 @@
     },
     "icon": "🍃",
     "imagePath": "/products/banana-leaf.png"
+  },
+  {
+    "id": "wood-pellet",
+    "visible": true,
+    "name": {
+      "en": "Wood Pellet",
+      "id": "Pelet Kayu"
+    },
+    "description": {
+      "en": "Eco-friendly wood pellets made in East Java with consistent quality and sustainable sourcing.",
+      "id": "Pelet kayu ramah lingkungan dari Jawa Timur, berkualitas konsisten dan berkelanjutan."
+    },
+    "details": {
+      "form": "6/8/10 mm diameter",
+      "origin": "East Java, Indonesia",
+      "packaging": "Plastic, Sacks, or Jumbo Bags. Customizable",
+      "moq": "1 Ton (sea), 500 Kg (air)",
+      "use": "Heating, fuel"
+    },
+    "icon": "🪵",
+    "imagePath": "/products/wood-pellet.png"
+  },
+  {
+    "id": "lime-leaves",
+    "visible": true,
+    "name": {
+      "en": "Lime Leaves",
+      "id": "Daun Jeruk"
+    },
+    "description": {
+      "en": "Fresh kaffir lime leaves with strong aroma and bright green color, ideal for culinary and herbal uses.",
+      "id": "Daun jeruk purut segar dengan aroma kuat dan warna cerah, cocok untuk kuliner dan herbal."
+    },
+    "details": {
+      "form": "Whole, dried",
+      "origin": "East Java, Indonesia",
+      "packaging": "Vacuum-sealed, 35x30x20 cm or custom",
+      "moq": "1 Ton (sea), 500 Kg (air)",
+      "use": "Cooking, herbal, aromatherapy"
+    },
+    "icon": "🍋",
+    "imagePath": "/products/lime-leaves.png"
+  },
+  {
+    "id": "bay-leaves",
+    "visible": true,
+    "name": {
+      "en": "Bay Leaves",
+      "id": "Daun Salam"
+    },
+    "description": {
+      "en": "Naturally grown and handpicked bay leaves with rich aroma, ideal for cooking and herbal products.",
+      "id": "Daun salam alami dan dipetik tangan dengan aroma khas, cocok untuk kuliner dan herbal."
+    },
+    "details": {
+      "form": "Whole, dried",
+      "origin": "East Java, Indonesia",
+      "packaging": "Vacuum-sealed, 40x30x25 cm or custom",
+      "moq": "1 Ton (sea), 500 Kg (air)",
+      "use": "Cooking, wellness"
+    },
+    "icon": "🌿",
+    "imagePath": "/products/bay-leaves.png"
   }
 ]

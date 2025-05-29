@@ -13,7 +13,20 @@ type Product = {
     en: string;
     id: string;
   };
-  details: Record<string, string | undefined>;
+  // details: Record<string, string | undefined>;
+  details: Record<string, string | string[] | undefined>;
+  exportInformation?: {
+    seasonality: string;
+    portOfLoading: string[];
+    packing: string;
+    paymentTerm: string[];
+    processingTime: string;
+    minOrderQuantity: {
+      sea: string;
+      air: string;
+    };
+  };
+  advantages?: string[];
   icon: string;
   imagePath: string;
 };
