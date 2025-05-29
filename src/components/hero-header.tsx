@@ -1,17 +1,38 @@
+'use client'
+import { useState } from 'react';
+import {Typewriter} from 'react-simple-typewriter' 
+
 interface HeroHeaderProps {
-  title?: string;
   description?: string;
 }
 
 export default function HeroHeader({
-  title = "Empowering Trade, Elevating Quality",
   description = "Connecting local producers with global buyers through trusted export solutions.",
 }: HeroHeaderProps) {
+  const [doneTyping, setDoneTyping] = useState(false);
+
   return (
     <section className="bg-center bg-no-repeat bg-[url('/banner-product.png')] bg-cover bg-gray-500 bg-blend-multiply">
       <div className="px-8 mx-auto max-w-screen-xl text-center py-20 lg:py-36">
-        <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
+        {/* <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
           {title}
+        </h1> */}
+        <h1 className='mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl'>
+          <Typewriter
+            words={[
+  'Welcome to PT Sudeci Exportir Indonesia',
+  'Empowering Trade, Elevating Quality',
+  'From Local Excellence to Global Markets',
+  'Your Trusted Export Partner from Indonesia',
+]}
+
+            loop={1}
+            cursor={!doneTyping}
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={2000}onLoopDone={() => setDoneTyping(true)}
+          />
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
           {description}
