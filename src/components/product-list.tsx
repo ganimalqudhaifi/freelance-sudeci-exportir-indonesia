@@ -4,6 +4,7 @@ import React from "react";
 
 type Product = {
   id: string;
+  visible: boolean;
   name: {
     en: string;
     id: string;
@@ -23,9 +24,11 @@ type Props = {
 };
 
 const ProductList: React.FC<Props> = ({ products, lang = "en" }) => {
+  const visibleProducts = products.filter((product) => product.visible);
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-content-center">
-      {products.map((product) => (
+      {visibleProducts.map((product) => (
         <div
           className="max-w-sm flex flex-col border rounded-lg shadow-sm hover:shadow-xl transition-shadow duration-300 ease-in-out group bg-neutral-800 border-neutral-700"
           key={product.id}

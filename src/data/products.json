@@ -1,6 +1,7 @@
 [
   {
     "id": "candlenut",
+    "visible": true,
     "name": {
       "en": "Candlenut",
       "id": "Kemiri"
@@ -21,6 +22,7 @@
   },
   {
     "id": "charcoal-briquettes",
+    "visible": true,
     "name": {
       "en": "Charcoal Briquettes",
       "id": "Briket Arang"
@@ -41,6 +43,7 @@
   },
   {
     "id": "lobster-seed",
+    "visible": true,
     "name": {
       "en": "Lobster Seedlings",
       "id": "Benur Lobster"
@@ -61,6 +64,7 @@
   },
   {
     "id": "banana-leaf",
+    "visible": true,
     "name": {
       "en": "Banana Leaves",
       "id": "Daun Pisang"
