@@ -23,15 +23,24 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <CustomImage
         alt=""
         src={product.imagePath}
-        width={640}
-        height={640}
+        width={900}
+        height={900}
         className="max-h-80 object-cover w-full"
       />
       <h2 className="text-xl text-neutral-800">{product.subtitle}</h2>
       <p className="mt-4 text-neutral-700">{product.description}</p>
 
       <section>
-        <h3 className="text-2xl font-semibold mt-8">🌱 Product Overview</h3>
+        <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+          <CustomImage
+            alt=""
+            src="/icons/catalog.svg"
+            width={640}
+            height={640}
+            className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+          />{" "}
+          Product Overview
+        </h3>
         <ul className="list-disc pl-12 mt-3.5 text-neutral-700">
           {Object.entries(product.details).map(([key, value], index) => {
             const label = formatLabel(key);
@@ -45,7 +54,16 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </section>
 
       <section>
-        <h3 className="text-2xl font-semibold mt-8">🔍 Applications</h3>
+        <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+          <CustomImage
+            alt=""
+            src="/icons/tools.svg"
+            width={640}
+            height={640}
+            className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+          />{" "}
+          Applications
+        </h3>
         {product.applications.map((app, index) => (
           <div key={index} className="mt-3">
             <h4 className="text-xl font-bold">
@@ -62,7 +80,16 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {product.quality && product.quality.length > 0 && (
         <section>
-          <h3 className="text-2xl font-semibold mt-8">✅ Quality Assurance</h3>
+          <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+            <CustomImage
+              alt=""
+              src="/icons/check-badge.svg"
+              width={640}
+              height={640}
+              className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+            />{" "}
+            Quality Assurance
+          </h3>
           <p className="mt-2">
             We adhere to strict quality control standards:{" "}
           </p>
@@ -76,8 +103,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {product.responsibility && (
         <section>
-          <h3 className="text-2xl font-semibold mt-8">
-            🌱 Sustainability & Responsibility
+          <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+            <CustomImage
+              alt=""
+              src="/icons/earth.svg"
+              width={640}
+              height={640}
+              className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+            />{" "}
+            Sustainability & Responsibility
           </h3>
           <p className="mt-2">{product.responsibility}</p>
         </section>
@@ -85,15 +119,31 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {product.sustainability && (
         <section>
-          <h3 className="text-2xl font-semibold mt-8">
-            🌱 Our Commitment to Sustainability
+          <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+            <CustomImage
+              alt=""
+              src="/icons/trust.svg"
+              width={640}
+              height={640}
+              className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+            />{" "}
+            Our Commitment to Sustainability
           </h3>
           <p className="mt-2">{product.sustainability}</p>
         </section>
       )}
 
       <section>
-        <h3 className="text-2xl font-semibold mt-8">📦 Logistics</h3>
+        <h3 className="text-2xl font-semibold mt-8 flex items-center gap-2">
+          <CustomImage
+            alt=""
+            src="/icons/logistic.svg"
+            width={640}
+            height={640}
+            className="w-12 bg-[#B8D9F9] p-2 rounded-full"
+          />{" "}
+          Logistics
+        </h3>
         <ul className="list-disc pl-12 mt-3.5 text-neutral-700">
           {Object.entries(product.logistics).map(([key, value], index) => {
             const label = formatLabel(key);

@@ -213,5 +213,205 @@
       "tradeTerms": "EXW / FOB / CIF / DDP",
       "documentationProvided": "Phytosanitary Certificate, Certificate of Origin, Packing List & Invoice"
     }
+  },
+  {
+    "slug": "wood-pellet",
+    "title": "Wood Pellet",
+    "subtitle": "Eco-Friendly Biomass Fuel for Global Energy Needs",
+    "description": "PT. Sudeci Exportir Indonesia proudly offers premium-grade Wood Pellets—an eco-conscious energy source derived from sustainably managed biomass. Manufactured with strict quality control, our wood pellets ensure high calorific value, low ash content, and consistent performance, making them ideal for industrial heating, power generation, and domestic fuel applications.",
+    "imagePath": "/products/wood-pellet.png",
+    "details": {
+      "productName": "Wood Pellet",
+      "productTariffHeading": "4401.31",
+      "origin": "East Java, Indonesia",
+      "color": "Natural Brown",
+      "quality": "Grade A",
+      "weight": "0.5 – 1 gram per pellet",
+      "length": "2 – 8 cm",
+      "diameter": "6 MM / 8 MM / 10 MM",
+      "moistureContentAndAshContent": "10 – 13%",
+      "calorificValue": "≥ 4,700 kcal/kg"
+    },
+    "applications": [
+      {
+        "title": "Industrial Heating",
+        "content": [
+          "Used in boilers and furnaces as a high-efficiency fuel alternative",
+          "Reduces carbon footprint for manufacturing plants"
+        ]
+      },
+      {
+        "title": "Power Generation",
+        "content": [
+          "Fuel for biomass power plants and energy conversion systems",
+          "Supports renewable energy targets globally"
+        ]
+      },
+      {
+        "title": "Household Use",
+        "content": [
+          "Clean, odorless fuel for pellet stoves and fireplaces",
+          "Perfect for winter heating in homes and cottages"
+        ]
+      }
+    ],
+    "quality": [
+      "Consistent size and density",
+      "Low moisture and ash content",
+      "Produced under controlled drying and compression process",
+      "Free from binders or harmful chemicals"
+    ],
+    "logistics": {
+      "seasonality": "All-year supply",
+      "portOfLoading": "Tanjung Priok (Jakarta), Soekarno-Hatta Airport",
+      "packaging": "Plastic sacks, jumbo bags, or custom per buyer request",
+      "paymentTerms": "T/T, L/C, Cash in Advance",
+      "processingTime": "15–20 days",
+      "minOrderQuantity": "1 Metric Ton by Sea, 500 Kilograms by Air"
+    },
+    "advantages": [
+      "Consistent Quality – Manufactured with strict quality control",
+      "Eco-Friendly – CO₂-neutral and sustainable",
+      "Large Production Capacity – Scalable for bulk orders",
+      "Competitive Pricing – Flexible terms for long-term partnerships",
+      "Reliable Logistics – Timely delivery to global ports"
+    ],
+    "contact": {
+      "phone": "+62 821-2402-7842",
+      "email": "admin@sudeciexportir.id",
+      "address": "H. Inen Street No. 31, RW. 9, Lubang Buaya, Cipayung, East Jakarta 13810, Indonesia",
+      "website": "sudeciexportir.id"
+    }
+  },
+  {
+    "slug": "bay-leaf",
+    "title": "Bay Leaf",
+    "subtitle": "Naturally Grown, Export-Ready Bay Leaves with Rich Aroma",
+    "description": "PT. Sudeci Exportir Indonesia offers premium Bay Leaves sourced from the fertile tropical regions of East Java, Indonesia. Our bay leaves are handpicked to ensure vibrant color, rich aroma, and clean appearance. Grown naturally without chemical additives, they are safe for culinary and herbal applications — trusted by global food and spice industries.",
+    "imagePath": "/products/bay-leaf.png",
+    "details": {
+      "productName": "Bay Leaves",
+      "productTariffHeading": "0910.99.99",
+      "origin": "East Java, Indonesia",
+      "color": "100% Natural Green",
+      "quality": "Grade A",
+      "weight": "± 1–3 grams per leaf",
+      "length": "5 – 12 cm"
+    },
+    "applications": [
+      {
+        "title": "Culinary Use",
+        "content": [
+          "Essential spice for soups, stews, curries, and sauces",
+          "Used in global cuisines for its earthy, aromatic flavor"
+        ]
+      },
+      {
+        "title": "Herbal & Wellness Products",
+        "content": [
+          "Applied in traditional medicine and herbal teas",
+          "Valued for digestive and anti-inflammatory properties"
+        ]
+      },
+      {
+        "title": "Industrial & Retail Packaging",
+        "content": [
+          "Ideal for bulk spice traders and packaged spice brands",
+          "Customizable labeling for private label exports"
+        ]
+      }
+    ],
+    "quality": [
+      "Premium Quality Selection – Handpicked at peak freshness",
+      "Naturally Cultivated – Free from chemicals and additives",
+      "Rich Aroma & Authentic Taste – Earthy scent and bold flavor",
+      "Export-Ready – Hygienically packed and internationally compliant"
+    ],
+    "logistics": {
+      "seasonality": "All-year supply",
+      "portOfLoading": "Tanjung Priok (Jakarta), Soekarno-Hatta International Airport",
+      "packaging": "Vacuum-sealed plastic/polybags in carton box (40 x 30 x 25 cm) or per buyer request",
+      "paymentTerms": "T/T, L/C, Cash in Advance",
+      "processingTime": "15–20 days",
+      "minOrderQuantity": "1 Metric Ton by Sea, 500 Kg by Air"
+    },
+    "advantages": [
+      "Premium Quality – Handpicked, clean, and intact",
+      "Naturally Cultivated – Chemical-free and safe",
+      "Rich Aroma – Strong, earthy, and long-lasting scent",
+      "Global Demand – Widely used in food, health, and wellness sectors",
+      "Export-Ready – Custom packing and private label options available"
+    ],
+    "contact": {
+      "phone": "+62 821-2402-7842",
+      "email": "admin@sudeciexportir.id",
+      "address": "H. Inen Street No. 31, RW. 9, Lubang Buaya, Cipayung, East Jakarta 13810, Indonesia",
+      "website": "sudeciexportir.id"
+    }
+  },
+  {
+    "slug": "lime-leaves",
+    "title": "Lime Leaf",
+    "subtitle": "Fresh Kaffir Lime Leaves with Authentic Citrus Aroma",
+    "description": "PT. Sudeci Exportir Indonesia supplies premium Lime Leaves harvested from healthy kaffir lime trees in East Java. These leaves are carefully processed to retain their vibrant color, natural oils, and distinct citrus aroma. Grown without chemicals, they are ideal for use in culinary, herbal, and aromatherapy industries worldwide.",
+    "imagePath": "/products/lime-leaves.png",
+    "details": {
+      "productName": "Lime Leaves",
+      "productTariffHeading": "0910.99.99",
+      "origin": "East Java, Indonesia",
+      "color": "Bright to Dark Green",
+      "quality": "Grade A",
+      "weight": "± 0.5 – 1.5 grams",
+      "length": "5 – 8 cm (2 – 3 inches)"
+    },
+    "applications": [
+      {
+        "title": "Culinary Industry",
+        "content": [
+          "Enhances soups, curries, stir-fry, and sauces with fresh citrus flavor",
+          "Used in Southeast Asian and fusion cuisines"
+        ]
+      },
+      {
+        "title": "Herbal & Medicinal Uses",
+        "content": [
+          "Included in traditional remedies for digestion and detox",
+          "Often used in herbal teas and infusions"
+        ]
+      },
+      {
+        "title": "Aromatherapy & Wellness",
+        "content": [
+          "Valued for uplifting citrus aroma",
+          "Used in essential oil blends, potpourri, and spa products"
+        ]
+      }
+    ],
+    "quality": [
+      "Naturally Grown & Chemical-Free – Free from synthetic fertilizers or additives",
+      "Distinctive Aroma & Flavor – Rich in essential oils and signature citrus scent",
+      "Fresh & Clean Appearance – Hand-selected with vibrant green color",
+      "Flexible Packaging – Bulk or retail options tailored to export standards"
+    ],
+    "logistics": {
+      "seasonality": "All-year supply",
+      "portOfLoading": "Tanjung Priok (Jakarta), Soekarno-Hatta International Airport",
+      "packaging": "Vacuum-sealed plastic in cartons (35 x 30 x 20 cm) or based on buyer requirements",
+      "paymentTerms": "T/T, L/C, Cash in Advance",
+      "processingTime": "15–20 days",
+      "minOrderQuantity": "1 Metric Ton by Sea, 500 Kilograms by Air"
+    },
+    "advantages": [
+      "Premium Citrus Aroma – Strong, fresh scent from essential oils",
+      "Naturally Sourced – From fertile, chemical-free plantations",
+      "Multi-Industry Use – Culinary, health, and wellness sectors",
+      "Export-Ready – Flexible packaging and global shipping support"
+    ],
+    "contact": {
+      "phone": "+62 821-2402-7842",
+      "email": "admin@sudeciexportir.id",
+      "address": "H. Inen Street No. 31, RW. 9, Lubang Buaya, Cipayung, East Jakarta 13810, Indonesia",
+      "website": "sudeciexportir.id"
+    }
   }
 ]
