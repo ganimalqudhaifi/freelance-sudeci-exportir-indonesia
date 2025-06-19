@@ -1,7 +1,7 @@
 [
   {
     "id": "candlenut",
-    "visible": true,
+    "visible": false,
     "name": {
       "en": "Candlenut",
       "id": "Kemiri"
@@ -43,7 +43,7 @@
   },
   {
     "id": "lobster-seed",
-    "visible": true,
+    "visible": false,
     "name": {
       "en": "Lobster Seedlings",
       "id": "Benur Lobster"
